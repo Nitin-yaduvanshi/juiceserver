@@ -1,0 +1,24 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "uploads": {
+    "name": "uploads",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root":"./uploads",
+    "nameConflict": "makeUnique"
+  },
+  "db_juice": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "db_juice",
+    "password": "",
+    "name": "db_juice",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
